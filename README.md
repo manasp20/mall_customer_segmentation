@@ -34,8 +34,20 @@ Badge [source](https://shields.io/)
 The objective of this study is to utilize Machine Learning methods to perform customer segmentation. Customer segmentation involves dividing a market into distinct groups of customers who exhibit similar characteristics. By leveraging customer segmentation, companies can effectively identify and address unmet customer needs, gaining a competitive edge through the development of highly appealing products and services.
 
 ## Repository structure 
-├── Image │   ├── 2.1 Original dataset.jpg                 <- original dataset used in the README │   ├── 2.2 Statistics.jpg                       <- statistics used in the README │   ├── 2.3 Income segmentation.jpg              <- Income segmentation used in the README │   ├── 3.1 Visual inspection.jpg                <- visual inspection to decide K used in the README │   ├── 3.2 Elbow Method.jpg                     <- Elbow Method to decide K used in the README │   ├── 3.3 Silhouette Score.jpg                 <- Silhouette Score to decide K used in the README │   ├── 4.1 K-means.jpg                          <- visual inspection of K-means method used in the README │   ├── 4.2 Hierarchical Clustering.jpg          <- visual inspection of Hierarchical Clustering used in the README │   ├── 5.1 Features of clusters.jpg             <- features of clusters used in the README                                   │ ├── Code_Mall_Customer_Segmenation.ipynb         <- python code ├── Data_Mall_Customers.csv                      <- dataset
-
+.
+├── Data_Mall_Customers.csv                <- Original dataset used for clustering.
+├── Code_Mall_Customer_Segmenation.ipynb   <- Jupyter Notebook containing the Python code for data analysis and clustering.
+└── Image/                                 <- Directory holding all visualizations used in the README.md and notebook.
+    ├── 2.1 Original dataset.jpg           <- Snapshot of the initial dataset structure.
+    ├── 2.2 Statistics.jpg                 <- Descriptive statistics of the dataset features.
+    ├── 2.3 Income segmentation.jpg        <- Visualization of income distribution and segments.
+    ├── 3.1 Visual inspection.jpg          <- Chart used for visual estimation of the optimal K (number of clusters).
+    ├── 3.2 Elbow Method.jpg               <- Plot for the Elbow Method to determine optimal K.
+    ├── 3.3 Silhouette Score.jpg           <- Plot for the Silhouette Score method to determine optimal K.
+    ├── 4.1 K-means.jpg                    <- Visualization of the K-Means Clustering results.
+    ├── 4.2 Hierarchical Clustering.jpg    <- Visualization of the Hierarchical Clustering results (Dendrogram).
+    └── 5.1 Features of clusters.jpg       <- Analysis and visualization of the key features for the final clusters.
+    
 ## 1. Business Understanding
 Clustering, an unsupervised machine learning technique, is employed for customer segmentation. Clustering aims to discover inherent groups or clusters within data, without prior knowledge of their existence. The following highlights the advantages and disadvantages of utilizing clustering for customer segmentation.
 
